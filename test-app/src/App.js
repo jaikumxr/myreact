@@ -25,10 +25,10 @@ const app = props => {
         {name: "Prerit",age:19},
         {name: "Adi",age:20}
       ],
-      otherState: personsState.otherState
+      otherState: personsState.otherState //so that otherState is not removed when using switchNameHandler()
     });
   }
-
+  
     return(
       <div className="App">
         <h1>Hi! I am a react app.</h1>
